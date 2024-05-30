@@ -5,8 +5,7 @@ import java.util.ArrayList;
 import ups.modelo.Animal;
 
 public class ObjectController {
-    // Método para buscar animales por nombre
-    public static Animal buscarPorNombre(ArrayList<Animal> animales, String nombre) {
+    public static Animal encontrarPorNombre(ArrayList<Animal> animales, String nombre) {
         for (Animal animal : animales) {
             if (animal.getNombre().equalsIgnoreCase(nombre)) {
                 return animal;
@@ -15,8 +14,7 @@ public class ObjectController {
         return null;
     }
 
-    // Método para buscar animales por especie
-    public static Animal buscarPorEspecie(ArrayList<Animal> animales, String especie) {
+    public static Animal encontrarPorEspecie(ArrayList<Animal> animales, String especie) {
         for (Animal animal : animales) {
             if (animal.getEspecie().equalsIgnoreCase(especie)) {
                 return animal;
@@ -25,8 +23,7 @@ public class ObjectController {
         return null;
     }
 
-    // Método para buscar animales por edad
-    public static Animal buscarPorEdad(ArrayList<Animal> animales, int edad) {
+    public static Animal encontrarPorEdad(ArrayList<Animal> animales, int edad) {
         for (Animal animal : animales) {
             if (animal.getEdad() == edad) {
                 return animal;
@@ -34,5 +31,4 @@ public class ObjectController {
         }
         return null;
     }
-
 }

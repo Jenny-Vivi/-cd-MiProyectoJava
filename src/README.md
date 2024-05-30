@@ -10,3 +10,5 @@ Versión v1.0.3: Implementación de Arreglo de Objetos
 
 Versión v1.0.4: Funcionalidad en Controladores y Vistas
 Realizar dos commits antes de realizar el TAG
+
+Versión v2.0.0: Integración y Pruebas Finales

@@ -1,5 +1,7 @@
 package ups.modelo;
 
+
+
 public class Animal {
     private String nombre;
     private String especie;
@@ -44,5 +46,6 @@ public class Animal {
                 ", edad=" + edad +
                 '}';
     }
+    
 
 }
